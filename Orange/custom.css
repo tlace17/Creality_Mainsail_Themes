@@ -7,10 +7,10 @@
     --Warnings:       #08090a;   
     --Text:           #ffffff;  
     --DarkerText:     #da7a2c;    
-    --Background:     #1e1611;  
-    --DarkBackground: #1e1611;    
+    --Background:     #191817;  
+    --DarkBackground: #191817;    
     --Toolbars:       #0a0b0d;  
-    --Sheets:         #1e1611;   
+    --Sheets:         #191817;   
 }
 .v-application {
     --v-primary-base: var(--Primary) !important;
