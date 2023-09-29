@@ -1,0 +1,270 @@
+
+:root {
+    --Primary:        #2196f3;   
+    --Secondary:      #44475a;   
+    --Green:          #50fa7b;   
+    --Red:            #ff5555;   
+    --Warnings:       #08090a;   
+    --Text:           #ffffff;  
+    --DarkerText:     #2196f3;    
+    --Background:     #181b21;  
+    --DarkBackground: #181b21;    
+    --Toolbars:       #0a0b0d;  
+    --Sheets:         #181b21;   
+}
+.v-application {
+    --v-primary-base: var(--Primary) !important;
+    --v-anchor-base:  var(--Primary) !important;
+    --v-error-base:   var(--Red) !important;
+    --v-success-base: var(--Green) !important;
+    --v-warning-base: var(--Warnings) !important;
+    --v-panel-base:   var(--DarkBackground) !important;
+}
+
+
+
+.v-btn__content .v-toolbar__title {
+    color: var(--Text) !important;
+}
+.text--darken-2 {
+    color: var(--Text) !important;
+}
+.subheading {
+    color: var(--Text) !important;
+}
+.theme--dark.v-icon, .v-btn__content, .v-text-field__suffix {
+    color: var(--Text) !important;
+}
+.theme--dark.v-input, .theme--dark.v-input input, .theme--dark.v-input textarea {
+    color: var(--Text) !important;
+}
+
+
+
+.v-application .primary {
+    background-color: var(--Primary) !important;
+    border-color: var(--Primary) !important;
+}
+.v-application .primary--text {
+    color: var(--Primary) !important;
+    caret-color: var(--Primary) !important;
+}
+.v-application .blue--text {
+    color: var(--Primary) !important;
+    caret-color: var(--Primary) !important;
+}
+.v-application .info {
+    background-color: var(--Primary) !important;
+    border-color: var(--Primary) !important;
+}
+.v-text-field.v-text-field--solo:not(.v-text-field--solo-flat)>.v-input__control>.v-input__slot:focus-within {
+    border: thin solid var(--Primary) !important;
+}
+.v-text-field.v-text-field--solo .v-input__control input {
+    caret-color: var(--Primary);
+}
+.theme--dark.v-color-picker .v-color-picker__input input {
+    border: thin solid var(--Primary);
+    color: var(--Text);
+}
+
+
+
+.v-application .secondary {
+    background-color: var(--Secondary) !important;
+    border-color: var(--Secondary) !important;
+}
+.theme--dark.v-chip {
+    color: var(--Text) !important;
+    background-color: var(--Secondary) !important;
+}
+
+
+
+body {
+    background-color: var(--Background);
+}
+.v-sheet {
+    border-color: var(--Background);
+}
+
+
+
+
+.theme--dark.v-application {
+    background: var(--DarkBackground);
+    color: var(--Text);
+}
+.v-application .grey.darken-3 {
+    background-color: var(--DarkBackground) !important;
+    border-color: var(--DarkBackground) !important;
+}
+.theme--dark.v-text-field--solo>.v-input__control>.v-input__slot {
+    background: var(--DarkBackground) !important;
+}
+.theme--dark.v-data-table {
+    background-color: var(--DarkBackground) !important;
+}
+.v-data-table>.v-data-table__wrapper>table  {
+    background-color: var(--DarkBackground) !important;
+}
+.theme--dark.v-btn.v-btn--has-bg {
+    background-color: var(--DarkBackground);
+}
+.theme--dark.v-tabs>.v-tabs-bar {
+    background-color: var(--DarkBackground);
+}
+
+
+
+.theme--dark.v-sheet {
+    background-color: var(--Sheets);
+}
+.v-toolbar__content, .v-toolbar__extension {
+    background-color: var(--Toolbars);
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%);
+}
+
+
+
+.theme--dark.v-card .v-card__subtitle, .theme--dark.v-card>.v-card__text {
+    color: var(--DarkerText);
+}
+
+
+
+.v-application .green--text {
+    color: var(--Green) !important;
+    caret-color: var(--Green) !important;
+}
+.v-application .green {
+    background-color: var(--Green) !important;
+    border-color: var(--Green) !important;
+}
+.v-application .green--text.text--darken-1 {
+    color: var(--Green) !important;
+    caret-color: var(--Green) !important;
+}
+.v-toast__item--success{
+    background-color: var(--Green) !important;
+    color: #000 !important;
+}
+
+
+
+.v-application button.warning {
+    background: var(--Warnings) !important;
+    background-color: var(--Warnings) !important;
+    border-color: var(--Warnings) !important;
+}
+.theme--dark.warning--text {
+    color: var(--Warnings) !important;
+}
+.v-toast__item--warning{
+    background-color: var(--Warnings) !important;
+}
+.v-application .orange {
+    background: var(--Warnings) !important;
+    background-color: var(--Warnings) !important;
+}
+
+
+
+.v-application .red {
+    background-color: var(--Red) !important;
+    border-color: var(--Red) !important;
+}
+.v-application .red--text.text--darken-1 {
+    color: var(--Red) !important;
+    caret-color: var(--Red) !important;
+}
+.v-application .red--text {
+    color: var(--Red) !important;
+    caret-color: var(--Red) !important;
+}
+.v-application .error {
+    background-color: var(--Red) !important;
+    border-color: var(--Red) !important;
+}
+.v-toast__item--error{
+    background-color: var(--Red) !important;
+}
+
+
+.v-btn-toggle>.v-btn.v-btn {
+    opacity: 1;
+}
+.theme--dark.v-btn--active:before {
+    opacity: 1;
+    background-color: var(--Toolbars) !important;
+}
+.theme--dark.v-btn.v-btn--disabled.v-btn--has-bg {
+    opacity: 1;
+    background-color: var(--Toolbars) !important;
+}
+.v-btn--disabled span.v-btn__content {
+    color: hsla(0,0%,100%,.3)!important
+}
+
+
+.mdi-thermometer-lines:before {
+    content: "\F0828";
+}
+
+.mdi-radiator-disabled:before {
+    content: "\F0238";
+    color: var(--Text);
+}
+
+.mdi-printer-3d-nozzle:before {
+    content: "\F0E22";
+    color: var(--Text);
+}
+
+.mdi-snowflake:before {
+    content: "\F0708";
+}
+
+.mdi-gamepad:before {
+    content: "\F1258";
+}
+
+.mdi-home:before {
+    content: "\F011A";
+}
+
+.mdi-cog:before {
+    content: "\F11EA";
+}
+
+.mdi-dip-switch:before {
+    content: "\F0CEC";
+}
+
+.mdi-code-tags:before {
+    content: "\F0BCA";
+}
+
+.mdi-information:before {
+    content: "\F140C";
+}
+
+.mdi-fan:before {
+    content: "\F09FB";
+}
+
+.mdi-connection:before {
+    content: "\F0348";
+}
+
+.mdi-chart-areaspline:before {
+    content: "\F150E";
+}
+
+.mdi-history:before {
+    content: "\F1545";
+}
+
+.mdi-file-document-multiple-outline:before {
+    content: "\F0E22";
+}
