@@ -11,6 +11,7 @@ SSH into your printer via software of choice
 copy the following below and paste into the terminal command line based on the color scheme you wish to use:
 
 # Blue Theme
+![image](https://github.com/tlace17/Creality_Mainsail_Themes/assets/55593962/56b49f94-cacf-46bb-a1bc-a2f33640c504)
 ```
 cd /usr/data/printer_data/config/
 mkdir .theme
@@ -27,6 +28,7 @@ rm -rf temp
 ```
 
 # Red Theme
+![image](https://github.com/tlace17/Creality_Mainsail_Themes/assets/55593962/198a9c3a-1f43-4306-bcd2-cfc477621f34)
 ```
 cd /usr/data/printer_data/config/
 mkdir .theme
@@ -43,6 +45,7 @@ rm -rf temp
 ```
 
 # Orange Theme
+![image](https://github.com/tlace17/Creality_Mainsail_Themes/assets/55593962/c073591c-de91-4828-b402-b3d2b7a95e2d)
 ```
 cd /usr/data/printer_data/config/
 mkdir .theme
@@ -59,6 +62,7 @@ rm -rf temp
 ```
 
 # Green Theme
+![image](https://github.com/tlace17/Creality_Mainsail_Themes/assets/55593962/fd5b8771-e83d-4ddd-86c3-1b70786f7440)
 ```
 cd /usr/data/printer_data/config/
 mkdir .theme
