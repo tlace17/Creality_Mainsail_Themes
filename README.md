@@ -8,6 +8,8 @@ Multiple colored Creality themes for Mainsail
 
 SSH into your printer via software of choice
 
+[Klipper Extruder Settings](#klipper-extruder-settings)
+
 copy the following below and paste into the terminal command line based on the color scheme you wish to use:
 
 # Blue Theme
@@ -78,5 +80,7 @@ rm -rf temp
 
 ```
 All Done!
+
+## Klipper Extruder Settings
 
 Navigate to your Fluidd Themes section and pick your theme of choice!
